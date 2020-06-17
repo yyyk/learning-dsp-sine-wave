@@ -44,7 +44,7 @@ export default Vue.extend({
   },
   head() {
     return {
-      title: this.doc ? this.doc?.title : ''
+      title: (this.doc && this.doc?.title) || ''
     }
   }
 })

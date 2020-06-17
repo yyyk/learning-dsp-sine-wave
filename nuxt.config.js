@@ -89,10 +89,7 @@ export default {
     middleware: ['menu']
   },
   generate: {
-    // subFolders: false,
-    // fallback: true,
-    // exclude: [],
-    fallback: '404.html', // Netlify reads a 404.html, Nuxt will load as an SPA
+    fallback: false,
     async routes() {
       const { $content } = require('@nuxt/content')
       const files = await $content()
