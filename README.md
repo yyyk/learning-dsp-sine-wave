@@ -1,5 +1,11 @@
 # learning-dsp-sine-wave
 
+Blog-like site that explains what I learned about sine wave
+
+url: https://learning-dsp-sine-wave.netlify.app/
+
+Built with [Nuxt.js](https://nuxtjs.org/) and [Typescript](https://www.typescriptlang.org/)
+
 >
 
 ## Build Setup
