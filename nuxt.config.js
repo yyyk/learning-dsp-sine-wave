@@ -9,7 +9,8 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
-    title: process.env.npm_package_name || '',
+    titleTemplate: '%s - Learning DSP (Sine Wave)',
+    title: 'Learning DSP (Sine Wave)',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

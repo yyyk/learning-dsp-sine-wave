@@ -30,6 +30,9 @@ export default Vue.extend({
       next
     }
   },
+  data: () => ({
+    doc: null as any
+  }),
   mounted() {
     this.$nuxt.$emit('menu-close')
     if (window && (window as any).MathJax) {
@@ -37,6 +40,11 @@ export default Vue.extend({
         'Typeset',
         (window as any).MathJax.Hub
       ])
+    }
+  },
+  head() {
+    return {
+      title: this.doc ? this.doc?.title : ''
     }
   }
 })

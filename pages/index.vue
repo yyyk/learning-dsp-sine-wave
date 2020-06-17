@@ -38,6 +38,11 @@ export default Vue.extend({
         (window as any).MathJax.Hub
       ])
     }
+  },
+  head() {
+    return {
+      title: 'Introduction'
+    }
   }
 })
 </script>
