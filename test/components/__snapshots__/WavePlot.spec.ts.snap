@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WavePlot.vue renders correctly 1`] = `
+"<svg viewBox=\\"0 0 930 570\\" version=\\"1.1\\" xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" preserveAspectRatio=\\"xMidYMid slice\\" class=\\"wave-plot\\">
+  <g transform=\\"translate(60, 40)\\">
+    <g>
+      <path shape-rendering=\\"geometricPrecision\\" fill=\\"none\\" stroke=\\"#2C3E50\\" stroke-width=\\"1\\" d=\\"M0,240L2,240L5,240L7,240L9,240L11,240L14,240L16,240L18,240L20,240L23,240L25,240L27,240L29,240L32,240L34,240L36,240L38,240L41,240L43,240L45,240L47,240L50,240L52,240L54,240L56,240L58,240L61,240L63,240L65,240L68,240L70,240L72,240L74,240L77,240L79,240L81,240L83,240L86,240L88,240L90,240L92,240L95,240L97,240L99,240L101,240L103,240L106,240L108,240L110,240L113,240L115,240L117,240L119,240L122,240L124,240L126,240L128,240L131,240L133,240L135,240L137,240L140,240L142,240L144,240L146,240L149,240L151,240L153,240L155,240L158,240L160,240L162,240L164,240L167,240L169,240L171,240L173,240L176,240L178,240L180,240L182,240L185,240L187,240L189,240L191,240L194,240L196,240L198,240L200,240L203,240L205,240L207,240L209,240L212,240L214,240L216,240L218,240L220,240L223,240L225,240L227,240L230,240L232,240L234,240L236,240L239,240L241,240L243,240L245,240L248,240L250,240L252,240L254,240L257,240L259,240L261,240L263,240L266,240L268,240L270,240L272,240L275,240L277,240L279,240L281,240L284,240L286,240L288,240L290,240L293,240L295,240L297,240L299,240L302,240L304,240L306,240L308,240L311,240L313,240L315,240L317,240L320,240L322,240L324,240L326,240L329,240L331,240L333,240L335,240L338,240L340,240L342,240L344,240L347,240L349,240L351,240L353,240L356,240L358,240L360,240L362,240L365,240L367,240L369,240L371,240L374,240L376,240L378,240L380,240L383,240L385,240L387,240L389,240L392,240L394,240L396,240L398,240L401,240L403,240L405,240L407,240L410,240L412,240L414,240L416,240L419,240L421,240L423,240L425,240L428,240L430,240L432,240L434,240L437,240L439,240L441,240L443,240L446,240L448,240L450,240L452,240L455,240L457,240L459,240L461,240L464,240L466,240L468,240L470,240L473,240L475,240L477,240L479,240L482,240L484,240L486,240L488,240L490,240L493,240L495,240L497,240L500,240L502,240L504,240L506,240L509,240L511,240L513,240L515,240L518,240L520,240L522,240L524,240L527,240L529,240L531,240L533,240L536,240L538,240L540,240L542,240L545,240L547,240L549,240L551,240L554,240L556,240L558,240L560,240L563,240L565,240L567,240L569,240L572,240L574,240L576,240L578,240L581,240L583,240L585,240L587,240L590,240L592,240L594,240L596,240L599,240L601,240L603,240L605,240L608,240L610,240L612,240L614,240L617,240L619,240L621,240L623,240L626,240L628,240L630,240L632,240L635,240L637,240L639,240L641,240L644,240L646,240L648,240L650,240L653,240L655,240L657,240L659,240L662,240L664,240L666,240L668,240L671,240L673,240L675,240L677,240L680,240L682,240L684,240L686,240L689,240L691,240L693,240L695,240L698,240L700,240L702,240L704,240L707,240L709,240L711,240L713,240L716,240L718,240L720,240L722,240L725,240L727,240L729,240L731,240L734,240L736,240L738,240L740,240L743,240L745,240L747,240L749,240L752,240L754,240L756,240L758,240L761,240L763,240L765,240L767,240L770,240L772,240L774,240L776,240L779,240L781,240L783,240L785,240L788,240L790,240L792,240L794,240L797,240L799,240L801,240L803,240L806,240L808,240L810,240\\"></path>
+    </g>
+    <g fill=\\"none\\" font-size=\\"24\\" font-family=\\"inherit\\" text-anchor=\\"end\\">
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0,480.5)\\">
+        <line stroke=\\"#C0C0BB\\" x2=\\"810\\"></line><text fill=\\"currentColor\\" x=\\"-3\\" dy=\\"0.32em\\">-1.0</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0,360.5)\\">
+        <line stroke=\\"#C0C0BB\\" x2=\\"810\\"></line><text fill=\\"currentColor\\" x=\\"-3\\" dy=\\"0.32em\\">-0.5</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0,240.5)\\">
+        <line stroke=\\"#C0C0BB\\" x2=\\"810\\"></line><text fill=\\"currentColor\\" x=\\"-3\\" dy=\\"0.32em\\">0.0</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0,120.5)\\">
+        <line stroke=\\"#C0C0BB\\" x2=\\"810\\"></line><text fill=\\"currentColor\\" x=\\"-3\\" dy=\\"0.32em\\">0.5</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0,0.5)\\">
+        <line stroke=\\"#C0C0BB\\" x2=\\"810\\"></line><text fill=\\"currentColor\\" x=\\"-3\\" dy=\\"0.32em\\">1.0</text>
+      </g>
+    </g>
+    <g transform=\\"translate(0, 480)\\" fill=\\"none\\" font-size=\\"24\\" font-family=\\"inherit\\" text-anchor=\\"middle\\" stroke-width=\\"1\\">
+      <path class=\\"domain\\" stroke=\\"currentColor\\" d=\\"M0.5,6V0.5H810.5V6\\"></path>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(0.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">0s</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(162.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">0.2s</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(324.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">0.4s</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(486.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">0.6s</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(648.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">0.8s</text>
+      </g>
+      <g class=\\"tick\\" opacity=\\"1\\" transform=\\"translate(810.5,0)\\">
+        <line stroke=\\"currentColor\\" y2=\\"6\\"></line><text fill=\\"currentColor\\" y=\\"9\\" dy=\\"0.71em\\">1s</text>
+      </g>
+    </g>
+  </g>
+</svg>"
+`;

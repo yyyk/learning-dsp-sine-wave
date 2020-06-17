@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`_slug.vue renders correctly 1`] = `
+"<div class=\\"page page--chapter\\">
+  <!---->
+  <pager-stub></pager-stub>
+</div>"
+`;

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import "reset.scss";
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: $background-color;
+    // word-break: break-word;
+    // word-wrap: break-word;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+p + p {
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+ul,
+ol {
+    list-style-position: outside;
+    margin-left: 18px;
+    // margin: 0;
+}
+
+li + li {
+    margin-top: 8px;
+}
+
+svg {
+    display: block;
+}
+
+#MathJax_Message,
+#MathJax_Hidden {
+    display: none !important;
+}
+
+.embedded-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding: 0 0 56.25%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.page {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 20px 20px 60px;
+    text-align: left;
+}
