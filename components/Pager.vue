@@ -51,7 +51,9 @@ export default Vue.extend({
   .next {
     text-decoration: none;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       .link-text {
         text-decoration: underline;
       }
